@@ -15,12 +15,5 @@ except Exception as e:
 print(city + " " + "Air Quality: " + str(quality) + " " + "Category :" + " " + category)
 
 
-# statuscode = r.status code
 
-# Import json and print API response in a variable.
-# response_dict = r.json()
-# print(response_dict.keys())
-
-# Different keys will show different information, we should print out the
-# information relevant to us 
 
