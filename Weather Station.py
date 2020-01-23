@@ -8,7 +8,6 @@ def main():
     quality = api["weather"]
     trial = quality[0]
     weather = trial["description"]
-    print(weather)
     print("Cordinates: " + str(cordinates) + " " + "Air Quality:" + " " + str(weather))
 if __name__== "__main__":
   main()
